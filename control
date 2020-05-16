@@ -3,7 +3,7 @@ Name: SliderChanger
 Depends: mobilesubstrate
 Version: 0.0.1
 Architecture: iphoneos-arm
-Description: An awesome MobileSubstrate tweak!
+Description: Changes lockscreen unlock text. 
 Maintainer: contejus
 Author: contejus
 Section: Tweaks
