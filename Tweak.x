@@ -1,7 +1,11 @@
-%hook SBLockScreenView
--(void)setCustomSlideToUnlockText:(id)arg1
+#import <UIKit/UIKit.h>
+
+%hook SBUICallToActionLabel
+
+
+-(void)setText:(id)arg1 forLanguage:(id)arg2 animated:(bool)arg3 
 {
-    arg1 = @"SliderChanger";
-    %orig(arg1);
+    NSString *newText = @"SliderChanger";
+    %orig(newText, arg2, arg3);
 }
 %end
