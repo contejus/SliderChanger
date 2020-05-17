@@ -1,7 +1,7 @@
 Package: com.contejus.sliderchanger
 Name: SliderChanger
 Depends: mobilesubstrate
-Version: 1.0
+Version: 0.0.2
 Architecture: iphoneos-arm
 Description: Changes lockscreen "Press home to unlock" text. 
 Maintainer: contejus
